@@ -1,0 +1,68 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>fugerit-code-rules</artifactId>
+
+	<parent>
+		<groupId>org.fugerit.java</groupId>
+		<artifactId>fj-bom</artifactId>
+		<version>1.6.7</version>
+		<relativePath></relativePath>
+	</parent>
+
+	<description>Fugerit Code Rules</description>
+	<version>0.1.0-SNAPSHOT</version>
+
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<properties>
+	</properties>	
+
+	<organization>
+		<url>https://www.fugerit.org</url>
+		<name>Fugerit</name>
+	</organization>
+	
+	<url>https://www.fugerit.org/</url>
+	
+	<scm>
+		<connection>scm:git:git://github.com/fugerit-org/fugerit-code-rules.git</connection>
+		<developerConnection>scm:git:ssh://github.com/fugerit-org/fugerit-code-rules.git</developerConnection>
+		<url>https://github.com/fugerit-org/fugerit-code-rules.git</url>
+		<tag>HEAD</tag>
+	</scm>
+
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/fugerit-org/fugerit-code-rules/issues</url>
+	</issueManagement>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
+</project>
